@@ -1,0 +1,102 @@
+.sign_up_user{
+    max-width: 1000px;
+    /* width: 1000px; */
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
+    padding: 30px;
+}
+
+.sign_up_user .title{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 3em;
+    line-height: 48px;
+    padding-bottom: 20px;
+    color: #5C2018;
+    background: -webkit-linear-gradient(#f4524d,#5C2018);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} 
+
+.signUpForm .formField {
+    position: relative;
+    margin: 32px 0;
+}
+
+.signUpForm .input-text{
+    background-color: #f3e9e7;
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #5C2018;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.signUpForm .input-text + .label,
+.signUpForm .input-text.not-empty + .label{
+    transform: translateY(-24px);
+
+}
+
+.signUpForm .input-text:focus{
+    outline: none;
+}
+
+.signUpForm .label{
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #5C2018;
+    cursor: text;
+    text-transform: capitalize;
+    transition: transform 0.2s ease-in-out;
+}
+
+.signUpForm .submit-btn{
+    display: inline-block;
+    background-image: linear-gradient(125deg, #f4524d,#5C2018);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+}
+
+
+.tab-content
+{
+    /* for tabs content */
+    border-top: 4px solid #5C2018;
+    border-bottom: 4px solid #5C2018;
+    padding: 20px 0px;
+}
+
+.nav-tabs .nav-link
+{
+    text-align: center;
+    background-color: #D4A59A;
+    /* display: inline-block !important; */
+    border-radius: 0px;
+    color: #5C2018;
+    font-weight: bold;
+    line-height: 40px;
+    border: none;
+}
+
+.nav-tabs .nav-link.active
+{
+    background-color: #f3e9e7;
+}
+

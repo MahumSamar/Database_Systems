@@ -1,0 +1,35 @@
+body{
+   background-color: #f5f1f0;
+}
+
+
+.btn
+{
+    /* nav bar button spacing */
+    margin-left: 25px;
+}
+
+
+.container.containerColor1
+{
+    padding: 25px;
+    height: auto;
+    width: auto;
+    text-align: center;
+    align-items: center;
+    background-color: #D4A59A;
+
+}
+
+.container.containerColor2
+{
+    padding: 25px;
+    height: auto;
+    width: auto;
+    text-align: center;
+    align-items: center;
+    background-color:#F3E0DC;
+
+}
+
+
